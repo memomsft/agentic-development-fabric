@@ -91,6 +91,13 @@ powerbi-mcp-demo/
 - [VS Code](https://code.visualstudio.com/download)
 - [Node.js](https://nodejs.org) (LTS)
 
+## Tenant settings
+
+Solo Power BI Modeling MCP (Remote) requiere un tenant setting explícito -- ver su setup.
+Fabric MCP Server y Fabric Skills no tienen un tenant setting dedicado, según el índice
+oficial de Microsoft (actualizado 2026-07-20). Si el catálogo de OneLake falla sin razón
+aparente, revisar "Users can access data stored in OneLake with apps external to Fabric".
+
 Cada sección documenta sus requisitos específicos adicionales en su propio `setup`.
 
 ---
